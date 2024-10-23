@@ -29,7 +29,7 @@ public class ZakatApp {
             System.out.print("Pilih jenis zakat yang ingin dihitung: ");
             int pilihan = input.nextInt();
 
-            Zakat zakat = null; // Polymorphism untuk objek Zakat
+            Zakat zakat = null;
 
             switch (pilihan) {
                 case 1:
@@ -72,7 +72,6 @@ public class ZakatApp {
                     continue;
             }
 
-            // Hitung dan tampilkan zakat
             double hasilZakat = zakat.calculateZakat();
             if (hasilZakat > 0) {
                 System.out.println("\nNama: " + hambali.getName());
