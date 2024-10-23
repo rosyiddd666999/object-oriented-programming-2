@@ -9,7 +9,7 @@ public class ZakatMal implements Zakat {
 
     @Override
     public double calculateZakat() {
-        double nishabMal = 85250000; // Contoh nishab zakat mal
+        double nishabMal = 85250000;
         if (totalHarta >= nishabMal) {
             return totalHarta * 2.5 / 100;
         }
