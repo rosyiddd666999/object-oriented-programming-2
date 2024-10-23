@@ -9,7 +9,7 @@ public class ZakatPerdagangan implements Zakat {
 
     @Override
     public double calculateZakat() {
-        double nishabTrade = 85250000; // Nishab zakat perdagangan
+        double nishabTrade = 85250000;
         if (totalAsetDagang >= nishabTrade) {
             return totalAsetDagang * 2.5 / 100;
         }
